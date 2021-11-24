@@ -6,7 +6,7 @@ const shoes = [
   {
     "name": "RED TAPE RUNNING SHOE",
     "image": "https://m.media-amazon.com/images/I/71D9ImsvEtL._UY500_.jpg",
-    "price": "2199",
+    "price": "2299",
     "id": "1"
   },
   {
