@@ -24,9 +24,10 @@
 }
 .product-container{
     display: grid;
- grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-grid-column-gap: 10px;
-grid-row-gap: 10px;
+    justify-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
 }
 .shoe-card{
     text-align: center;
