@@ -13,7 +13,7 @@ export default function App() {
      <Header/>
      <div className="App">
         <Routes>
-          
+
           <Route path="/cart" element={<MyCart/>}/>
           <Route exact path="/" element={<Home/>}/>
         
