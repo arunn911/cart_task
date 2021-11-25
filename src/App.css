@@ -26,15 +26,16 @@
     display: grid;
     justify-items: center;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-column-gap: 10px;
-    grid-row-gap: 10px;
+    grid-column-gap: 50px;
+    grid-row-gap: 20px;
 }
 .shoe-card{
     text-align: center;
 }
 .main-card{
+    padding: 10px;
     text-align: center;
-   height: 280px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
    width: 300px;
 }
 .cart-btn{
