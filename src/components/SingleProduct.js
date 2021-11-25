@@ -1,5 +1,6 @@
 import React, {useContext} from "react";
 import { Cart } from "../Context";
+import { StarRating } from "./StarRating";
 
  export function SingleProduct ({prod}) {
 
@@ -10,8 +11,11 @@ import { Cart } from "../Context";
       <img height="100" src={prod.image} alt="shoe"/>
       </div>
       <h3>{prod.name}</h3>
-      <h5>Rs.{prod.price}</h5>
+      
+      <StarRating />
 
+      <h5>Rs.{prod.price}</h5>
+        
       {cart.includes(prod)?(
            <button onClick={() =>{
             setCart(cart.filter((e) => e.id !== prod.id))
